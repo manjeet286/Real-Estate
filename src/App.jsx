@@ -8,12 +8,14 @@ import About from './pages/About'
 import SignUp from './pages/SignUp'
 import Signin from './pages/Signin'
 import Profile from './pages/Profile'
+import Header from './Components/Header'
 
 function App() {
 
 
   return (
     <BrowserRouter>
+    <Header/>
     <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/sign-up' element={<SignUp/>}/>
